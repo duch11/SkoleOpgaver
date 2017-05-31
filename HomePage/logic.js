@@ -8,6 +8,10 @@ function init(){
 
     var heading = document.getElementById("title");
     var ptag = document.getElementById("ptag");
+    var divTag = document.getElementById("content")
+
+    displayFrontPage();
+    displayResumePage();
 
     fPageButton.onclick = displayFrontPage;
     resumeButton.onclick = displayResumePage;
@@ -16,14 +20,23 @@ function init(){
 }
 
 function displayFrontPage(){
-    heading.innerHTML = "My life, haleluja";
-    ptag.innerHTML = "I welcome thee";
+    heading.innerHTML = "Jonas Ladefoged Holm";
+    ptag.innerHTML = "This website is mostly a sparetime project, so don't expect marvolous things. However I'm making it from the bottom up. No cheating, only my code and some frameworks maybe.. (haven't decided yet) :) <br>If you are an employer, please look at my projects page to look what I've done in the past. Otherwise, you can read my resume at the provided menu option.";
 }
 
+// var btn = document.createElement("BUTTON");        // Create a <button> element
+// var t = document.createTextNode("CLICK ME");       // Create a text node
+// btn.appendChild(t);                                // Append the text to <button>
+// document.body.appendChild(btn);                    // Append <button> to <body> 
+
 function displayResumePage(){
-    // alert("Hej mor");
-    heading.innerHTML = "So nice person right here";
-    ptag.innerHTML = "Jeg er flot og 27år.";
+    heading.innerHTML = "Jonas Ladefoged Holm";
+    for(var i = 0; i < 10; i++){
+        var tag = document.createElement("P");
+        document.getElementById("content").appendChild(tag);
+        tag.innerHTML = "HEJ" + i;
+    }
+
 }
 
 function displayProjectsPage(){
