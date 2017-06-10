@@ -2,13 +2,31 @@ body {
     background-color: #ef6101;
 }
 
-.container, a{
+.container,
+a {
     color: #ffffff;
     font-weight: bold;
 }
 
 #heading {
-    font-size: 180pt;
+    font-size: 3em;
+}
+
+#profilepicture {
+    width: 150px;
+    position: relative;
+    bottom: 120px;
+}
+
+#topHeading {
+    position: relative;
+    top: 30px;
+    left: 200px;
+    width: 70%;
+}
+
+.navbar-collapse {
+    padding: 0;
 }
 
 #warning {
