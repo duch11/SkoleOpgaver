@@ -1,0 +1,33 @@
+/*General styles*/
+body {
+    background-color: #fffcf9;
+    color: #f7f7f7;
+}
+
+/*Education style*/
+.education {
+    /*background-color: #04395e;*/
+}
+
+.resume {
+    /*background-color: #353535;*/
+}
+
+/*header & footer styles*/
+
+header,  footer, section {
+    background-color: #010c1e;
+}
+
+/*navigation bar styles*/
+.navbar-collapse {
+    background-color: #f7f7f7;
+}
+
+a {
+    color: #f7f7f7;
+}
+
+nav a {
+    color: #010c1e;
+}

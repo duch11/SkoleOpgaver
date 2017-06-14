@@ -1,0 +1,53 @@
+/*General styles*/
+body {
+    position: relative;
+    left: 15%;
+    width: 70%;
+    /*color: seashell;*/
+}
+
+
+
+/*Education style*/
+.education {
+    /*background-color: #04395e;*/
+    margin: 0px;
+    padding: 0px;
+}
+
+.resume {
+    /*background-color: #353535;*/
+}
+
+/*header & footer styles*/
+header img {
+    width: 150px;
+    position: relative;
+}
+
+header,  footer, section {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer p {
+    margin-bottom: 0px;
+    padding-bottom: 2%;
+}
+
+/*navigation bar styles*/
+.navbar-collapse {
+    padding: 0;
+    font-weight: bold;
+}
+
+/*Special styles*/
+#warning {
+    font-size: 30pt;
+    background-color: #ffff17;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+}
