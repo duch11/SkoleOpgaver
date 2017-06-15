@@ -1,28 +1,48 @@
-/*General styles*/
-body {
-    position: relative;
-    left: 15%;
-    width: 70%;
-    /*color: seashell;*/
+/*Fonts*/
+@font-face {
+    font-family: 'led-display';
+    src: url('../fonts/led-display/led-display.ttf');
 }
 
+/*General styles*/
+body {
+    /*overflow-y:hidden;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 15%;
+}
 
+@w
+    width: 70em;
 
-/*Education style*/
-.education {
-    /*background-color: #04395e;*/
+h1 {
+    font-family: 'led-display';
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+/*sections style*/
+.resume, .education {
     margin: 0px;
     padding: 0px;
 }
 
-.resume {
-    /*background-color: #353535;*/
-}
-
 /*header & footer styles*/
 header img {
+    float: left;
     width: 150px;
     position: relative;
+    margin: 0px;
+    margin-right: 20px;
 }
 
 header,  footer, section {
@@ -36,9 +56,25 @@ footer p {
 }
 
 /*navigation bar styles*/
-.navbar-collapse {
-    padding: 0;
+
+ul{
+    list-style-type: none;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+li a {
     font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+a:hover, a {
+    text-decoration: none;
 }
 
 /*Special styles*/
