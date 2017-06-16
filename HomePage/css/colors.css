@@ -36,13 +36,25 @@ body {
 /*navigation bar styles*/
 nav{
     background-color: #4717F6;
+    /*box-shadow: 0px 0px 10px 1px #4717F6; */
+    
+}
+
+footer {
+    border: 4px dotted #4717F6;
 }
 
 a {
     color: #E7DFDD;
+    background-color: #4717F6;
 }
 
 a:hover, .active{
     background-color: #A239CA;
+}
+
+section img {
+    box-shadow: 0px 1px 1px 1px #4717F6; 
+    
 }
 

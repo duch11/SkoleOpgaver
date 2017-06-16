@@ -4,16 +4,22 @@
     src: url('../fonts/led-display/led-display.ttf');
 }
 
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
 /*General styles*/
 body {
     /*overflow-y:hidden;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: relative;
-    left: 15%;
+    font-weight: bold;
+    max-width: 950px;
+    margin: 0 auto;
 }
-
-@w
-    width: 70em;
 
 h1 {
     font-family: 'led-display';
@@ -22,44 +28,66 @@ h1 {
     font-size: 50px;
 }
 
+
+h2, h3 {
+    margin: 0px 0px 5px 0px;
+}
+
 h2 {
-    margin: 0px;
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+h4 {
+    
 }
 
 p {
+    font-size: 0.8em;
     margin: 0px;
 }
 
-/*sections style*/
-.resume, .education {
-    margin: 0px;
-    padding: 0px;
+img {
+    margin: 20px;
+    padding: 0 auto;
 }
 
-/*header & footer styles*/
+/*
+nav {
+    clear: both;
+}*/
+
+a:hover, a {
+    margin: 5px;    
+    padding: 7px 15px;
+    display: inline-block;    
+    text-decoration: none;
+    border-top-left-radius: 5px;
+    border-radius: 5px;
+}
+
+
+/*header styles*/
+header {
+    margin: 20px 0 0 0;
+    overflow: hidden;
+}
+
 header img {
+    border-radius: 5px;
     float: left;
-    width: 150px;
-    position: relative;
-    margin: 0px;
-    margin-right: 20px;
-}
-
-header,  footer, section {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-footer p {
-    margin-bottom: 0px;
-    padding-bottom: 2%;
+    max-width: 150px;
+    margin: 0 20px 0 0;
 }
 
 /*navigation bar styles*/
 
 ul{
     list-style-type: none;
-    padding: 10px 0px;
+    padding: 0px 0px;
     overflow: hidden;
 }
 
@@ -67,15 +95,62 @@ nav ul li{
     float: left;
 }
 
-li a {
-    font-weight: bold;
+nav li a, nav li a:hover{
+    display: inline-block;
     padding: 10px 15px;
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    border-radius: 0px;
+}
+
+
+/*sections style*/
+section {
+    overflow: auto;
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+}
+
+section h3 {
+    text-align: left;
+}
+
+.wide-column {
+    float: left;
+    width: 70%;
+    padding: 10px 0;
+}
+
+.narrow-column {
+    float: left;
+    width: 30%;
+    padding: 10px 0;
+}
+
+.blogpost {
     text-align: center;
 }
 
-a:hover, a {
-    text-decoration: none;
+/*footer */
+
+footer {
+    text-align: center;
+    /*margin-top: 30px;*/
+    padding: 20px 20px 30px 20px;
+    margin-bottom: 20px;
 }
+
+footer p{
+    margin-top: 10px;
+}
+
+footer a, footer a:hover{ 
+    display: inline-block;
+    padding: 10px 15px;
+}
+
 
 /*Special styles*/
 #warning {
