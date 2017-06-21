@@ -33,7 +33,7 @@ h1 {
 
 
 h2, h3 {
-    margin: 0px 0px 5px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 h2 {
@@ -45,7 +45,8 @@ h3 {
 }
 
 h4 {
-    
+    margin: 10px 0px 3px;
+    font-size: 1.6em;
 }
 
 p {
@@ -125,18 +126,12 @@ section h3 {
     text-align: left;
 }
 
-section h4 {
-    margin: 10px 0px 3px;
-    font-size: 1.6em;
-
-}
-
 .wide-column {
     float: left;
     width: 70%;
     padding: 10px;
     /*border: 2px solid yellow;*/
-    min-height: 90px;
+    min-height: 102px;
 }
 
 .narrow-column {
@@ -157,11 +152,15 @@ section h4 {
     text-align: justify;
 }
 
-.blogpost iframe {
+.blogpost iframe, .blogpost img {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+}
+
+.blogpost img {
+    margin-left: 0px;
+    max-width: 100%;
 }
 
 /*footer */
