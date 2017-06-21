@@ -55,6 +55,11 @@ img {
     padding: 0 auto;
 }
 
+p a, p a:hover{
+    margin: 0; 
+    padding: 0;
+}
+
 /*
 nav {
     clear: both;
@@ -117,16 +122,24 @@ section h3 {
     text-align: left;
 }
 
+section h4 {
+    margin: 0;
+
+}
+
 .wide-column {
     float: left;
     width: 70%;
-    padding: 10px 0;
+    padding: 10px;
+    /*border: 2px solid yellow;*/
+    min-height: 90px;
 }
 
 .narrow-column {
     float: left;
     width: 30%;
-    padding: 10px 0;
+    padding: 10px;
+    /*border: 2px solid yellow;*/
 }
 
 .blogpost {
