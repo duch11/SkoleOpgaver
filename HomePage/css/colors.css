@@ -49,6 +49,12 @@ a {
     background-color: #4717F6;
 }
 
+p a, p a:hover{
+    background-color: unset;
+    color: #4717F6;
+     
+}
+
 a:hover, .active{
     background-color: #A239CA;
 }
