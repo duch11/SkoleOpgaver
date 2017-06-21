@@ -4,6 +4,7 @@
     src: url('../fonts/led-display/led-display.ttf');
 }
 
+
 html{
     box-sizing: border-box;
 }
@@ -16,9 +17,11 @@ html{
 body {
     /*overflow-y:hidden;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/*    font-family: 'Open Sans', sans-serif;*/
     font-weight: bold;
     max-width: 950px;
     margin: 0 auto;
+    padding: 0px 5px;
 }
 
 h1 {
@@ -123,7 +126,8 @@ section h3 {
 }
 
 section h4 {
-    margin: 0;
+    margin: 10px 0px 3px;
+    font-size: 1.6em;
 
 }
 
@@ -143,7 +147,21 @@ section h4 {
 }
 
 .blogpost {
-    text-align: center;
+    text-align: left;
+    margin: auto;
+    max-width: 600px;
+}
+
+.blogpost p {
+    margin: 7px 0px;
+    text-align: justify;
+}
+
+.blogpost iframe {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 
 /*footer */
