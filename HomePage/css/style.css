@@ -1,23 +1,27 @@
 /*Fonts*/
+
 @font-face {
     font-family: 'led-display';
     src: url('../fonts/led-display/led-display.ttf');
 }
 
-
-html{
+html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after{
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
+
 /*General styles*/
+
 body {
     /*overflow-y:hidden;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-/*    font-family: 'Open Sans', sans-serif;*/
+    /*    font-family: 'Open Sans', sans-serif;*/
     font-weight: bold;
     max-width: 950px;
     margin: 0 auto;
@@ -31,8 +35,8 @@ h1 {
     font-size: 50px;
 }
 
-
-h2, h3 {
+h2,
+h3 {
     margin: 0px 0px 0px 0px;
 }
 
@@ -59,20 +63,21 @@ img {
     padding: 0 auto;
 }
 
-p a, p a:hover{
-    margin: 0; 
+p a,
+p a:hover {
+    margin: 0;
     padding: 0;
 }
 
-/*
 nav {
     clear: both;
-}*/
+}
 
-a:hover, a {
-    margin: 5px;    
+a:hover,
+a {
+    margin: 5px;
     padding: 7px 15px;
-    display: inline-block;    
+    display: inline-block;
     text-decoration: none;
     border-top-left-radius: 5px;
     border-radius: 5px;
@@ -80,6 +85,7 @@ a:hover, a {
 
 
 /*header styles*/
+
 header {
     margin: 20px 0 0 0;
     overflow: hidden;
@@ -92,29 +98,35 @@ header img {
     margin: 0 20px 0 0;
 }
 
+
 /*navigation bar styles*/
 
-ul{
+nav ul {
     list-style-type: none;
     padding: 0px 0px;
     overflow: hidden;
 }
 
-nav ul li{
+nav ul li {
+    width: 25%;
     float: left;
 }
 
-nav li a, nav li a:hover{
+nav li a,
+nav li a:hover {
     display: inline-block;
     padding: 10px 15px;
     text-align: center;
     font-size: 15px;
     margin: 0;
     border-radius: 0px;
+    width: 100%;
+    text-transform: uppercase;
 }
 
 
 /*sections style*/
+
 section {
     overflow: auto;
     text-align: center;
@@ -125,6 +137,9 @@ section {
 section h3 {
     text-align: left;
 }
+
+
+/*Resume, education*/
 
 .wide-column {
     float: left;
@@ -141,7 +156,11 @@ section h3 {
     /*border: 2px solid yellow;*/
 }
 
-.blogpost {
+
+/*Blogposts*/
+
+.blogpost,
+.blogpost-last {
     text-align: left;
     margin: auto;
     max-width: 600px;
@@ -152,7 +171,11 @@ section h3 {
     text-align: justify;
 }
 
-.blogpost iframe, .blogpost img {
+
+/*Youtube og Images*/
+
+.blogpost iframe,
+.blogpost img {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -163,6 +186,7 @@ section h3 {
     max-width: 100%;
 }
 
+
 /*footer */
 
 footer {
@@ -172,17 +196,19 @@ footer {
     margin-bottom: 20px;
 }
 
-footer p{
+footer p {
     margin-top: 10px;
 }
 
-footer a, footer a:hover{ 
+footer a,
+footer a:hover {
     display: inline-block;
     padding: 10px 15px;
 }
 
 
 /*Special styles*/
+
 #warning {
     font-size: 30pt;
     background-color: #ffff17;
