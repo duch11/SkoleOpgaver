@@ -18,8 +18,14 @@ STARK (hvid)
 /*General styles*/
 
 body {
-    background-color: #2e2544;
+    background: linear-gradient( rgba(14, 11, 22, 0.9), rgba(14, 11, 22, 0.9)), url("../img/bg.jpg") no-repeat fixed;
+    background-size: cover;
+    /*background-color: #2e2544;*/
     color: #E7DFDD;
+}
+
+main {
+    background-color: rgba(14, 11, 22, 0.5);
 }
 
 
