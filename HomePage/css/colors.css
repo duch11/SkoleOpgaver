@@ -18,73 +18,75 @@ STARK (hvid)
 /*General styles*/
 
 body {
-    background: linear-gradient( rgba(14, 11, 22, 0.9), rgba(14, 11, 22, 0.9)), url("../img/bg.jpg") no-repeat fixed;
-    background-size: cover;
+/*    background: linear-gradient( rgba(14, 11, 22, 0.9), rgba(14, 11, 22, 0.9)), url("../img/bg.jpg") no-repeat fixed;*/
+/*    background-size: cover;*/
     /*background-color: #2e2544;*/
-    color: #E7DFDD;
+
 }
 
 main {
-    background-color: rgba(14, 11, 22, 0.5);
+/*    background-color: rgba(14, 11, 22, 0.5);*/
 }
 
 
 /*Education style*/
 
+.profile {
+/*    background-color: darkgray;*/
+}
 
-/*.education {
-    background-color: #4717F6;
-}*/
+.education {
+/*    background-color: gray;*/
+}
 
 
-/*.resume {
-    background-color: #A239CA;
-}*/
+.resume {
+/*    background-color: #A239CA;*/
+}
 
 
 /*header & footer styles*/
 
 
-/*header,  footer, section {
-    background-color: #010c1e;
-}*/
+header,  footer, section {
+/*    background-color: #010c1e;*/
+}
 
 
 /*navigation bar styles*/
 
 nav {
-    background-color: #4717F6;
     /*box-shadow: 0px 0px 10px 1px #4717F6; */
 }
 
 footer {
-    border: 4px dotted #4717F6;
+/*    border: 4px dotted #4717F6;*/
 }
 
 a {
-    color: #E7DFDD;
-    background-color: #4717F6;
+/*    color: #E7DFDD;*/
+/*    background-color: #4717F6;*/
 }
 
 p a,
 p a:hover {
-    background-color: unset;
-    color: #4717F6;
+/*    background-color: unset;*/
+/*    color: #4717F6;*/
 }
 
 a:hover,
 .active {
-    background-color: #A239CA;
+/*    background-color: #A239CA;*/
 }
 
 section img {
-    box-shadow: 0px 1px 1px 1px #4717F6;
+/*    box-shadow: 0px 1px 1px 1px #4717F6;*/
 }
 
 .blogpost {
-    border-bottom: 4px dotted #4717F6;
+/*    border-bottom: 4px dotted #4717F6;*/
 }
 
 .blogpost-last {
-    border-bottom: 0px;
+/*    border-bottom: 0px;*/
 }
